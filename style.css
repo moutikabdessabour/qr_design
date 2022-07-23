@@ -5,13 +5,14 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
-body{
+html,body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray);
     display: grid;
     place-items: center;
     height:100vh;
-    padding: 1rem;
+    width: 100vw;
+    padding:0;
     margin: 0;
     overflow: hidden;
 }

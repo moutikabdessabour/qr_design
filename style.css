@@ -17,6 +17,7 @@ body{
 }
 
 article.card {
+    max-width: 400px;
     width: calc(min(calc(100%-2rem),250px));
     background-color: var(--white);
     padding: 1rem;
